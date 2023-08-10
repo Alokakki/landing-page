@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    color: red;
+}
+
+.nav {
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    /* background: olive; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-items {
+    display: flex;
+    margin-right: 3vw;
+    gap: 4vh;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav h2 {
+    color: black;
+    padding: 0px 4vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-items h3 a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-items button {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: 7vw;
+    height: 70%;
+    padding: 0px 2vh;
+    font-weight: 700;
+}
+
+.nav-items button a {
+    text-decoration: none;
+    color: white;
+}
+.perent{
+    width: 100vw;
+    height: calc(100vh - 8vh);
+    /* background-color: white; */
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(rgb(116, 116, 204) , #5472aa);
+    /* background-color: salmon; */
+    /* background-image: url(https://th.bing.com/th/id/R.603c61d60cb0e69b1d876449b772fa40?rik=7w2KDM9jk%2ftB5Q&riu=http%3a%2f%2fwww.freepngimg.com%2fdownload%2fsound_wave%2f27527-4-sound-wave-transparent-picture.png&ehk=1GSRTlDy%2foeW64mN2iQAWYt8RlyFFDM4tUuJbsCA%2fVg%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    background-position: 2.5vh;
+}
+.left  h1{
+    font-size: 75px;
+    padding: 10vh 4vw 2vh;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left p{
+    color: black;
+    font-weight: 500;
+    padding: 0vh 4vw 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left button{
+    margin-left: 4vw;
+    background-color: black;
+color: white;
+width: 7vw;
+    height: 6vh;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* mix-blend-mode: multiply; */
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vw;
+    background: rgba(80, 75, 75, 0.938);
+    border-bottom: 4px solid blue;
+}
+li{
+    list-style: none;
+    line-height: 1.8rem;
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer h2{
+    color:rgb(98, 98, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+hr{
+    display: block;
+    border: 2px solid black;
+    
+}
