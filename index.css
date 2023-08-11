@@ -67,7 +67,7 @@ body {
 .left{
     width: 50%;
     height: 100%;
-    background:linear-gradient(rgb(116, 116, 204) , #5472aa);
+/*     background:linear-gradient(rgb(116, 116, 204) , #5472aa); */
     /* background-color: salmon; */
     /* background-image: url(https://th.bing.com/th/id/R.603c61d60cb0e69b1d876449b772fa40?rik=7w2KDM9jk%2ftB5Q&riu=http%3a%2f%2fwww.freepngimg.com%2fdownload%2fsound_wave%2f27527-4-sound-wave-transparent-picture.png&ehk=1GSRTlDy%2foeW64mN2iQAWYt8RlyFFDM4tUuJbsCA%2fVg%3d&risl=&pid=ImgRaw&r=0);
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ width: 7vw;
 .right{
     width: 50%;
     height: 100%;
-    background-color: brown;
+/*     background-color: brown; */
 }
 .right img{
     width: 100%;
