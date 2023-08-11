@@ -59,7 +59,9 @@ body {
 .perent{
     width: 100vw;
     height: calc(100vh - 8vh);
-    /* background-color: white; */
+    background-image: url(head.jpg);
+      background-repeat: no-repeat;
+     background-size: contain; 
     display: flex;
 }
 .left{
