@@ -61,7 +61,7 @@ body {
     height: calc(100vh - 8vh);
     background-image: url(head.jpg);
       background-repeat: no-repeat;
-     background-size: contain; 
+     background-size: cover; 
     display: flex;
 }
 .left{
